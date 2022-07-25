@@ -1,0 +1,38 @@
+body {
+   background: rgb(177, 69, 30);
+    background: linear-gradient(90deg, rgba(193, 109, 30, 0.928) 100%, rgb(214, 99, 4) 100%);
+}
+
+.container {
+    max-width: 600px;
+}
+
+.form-control::placeholder{
+    color: gainsboro;
+}
+
+
+input[type=text],
+input[type=text]:focus {
+    color: white;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+}
+
+.todos li {
+    background: #408b8b;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}
+
+.checkbox .selected {
+    font-weight: bold;
+}
+

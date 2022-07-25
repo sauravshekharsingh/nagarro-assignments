@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+#box {
+    background-color: bisque;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+    padding: 20px;
+}
+
+#box.show {
+    visibility: visible;
+}
+
+#close-btn {
+    background-color: red;
+    float: right;
+}
